@@ -1,4 +1,4 @@
-module Mayhem
+module OhNo
 
   def infinite_loop
     until false

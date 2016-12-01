@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'mayhem/version'
+require 'ohno/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "baseanything"
-  spec.version       = Mayhem::VERSION
+  spec.name          = "ohno"
+  spec.version       = OhNo::VERSION
   spec.authors       = ["DouglasTGordon"]
   spec.email         = ["douglastgordon@gmail.com"]
 
   spec.summary       = %q{Destroy your code.}
-  spec.description   = %q{Mayhem provides a bunch of methods that will cause your code to break. Use with caution.}
+  spec.description   = %q{OhNo provides a bunch of methods that will cause your code to break. Use with caution.}
   spec.homepage      = "https://github.com/douglastgordon/Mayhem"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
