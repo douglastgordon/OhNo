@@ -40,6 +40,15 @@ module OhNo
     eval("1+1=2")
   end
 
+  def self.i_wouldnt_if_i_were_you
+    begin
+      uhoh
+    rescue Exception => e
+      p "told you so!"
+      retry while true
+    end
+  end
+
   private
 
   def i_take_one_argument(arg)

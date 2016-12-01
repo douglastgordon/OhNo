@@ -40,6 +40,9 @@ OhNo::type_error
 OhNo::no_method_error
 OhNo::argument_error
 OhNo::load_error
+OhNo::syntax_error
+OhNo::i_wouldnt_if_i_were_you
+
 ```
 
 ## Contributing
