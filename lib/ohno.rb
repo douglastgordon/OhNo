@@ -49,6 +49,10 @@ module OhNo
     end
   end
 
+  def self.regex_error
+    Regexp.new("?")
+  end
+
   private
 
   def i_take_one_argument(arg)
