@@ -8,6 +8,24 @@ Need to buy some time? An infinite_loop is the one for you!
 
 Try these and much, much more!
 
+##Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'baseanything'
+```
+
+And then execute:
+```ruby
+    $ bundle
+```
+Or install it yourself as:
+```ruby
+    $ gem install baseanything
+```
+
+
 ##Usage
 
 Just slip any of these methods into your code and enjoy!
@@ -20,3 +38,7 @@ OhNo::type_error
 OhNo::no_method_error
 OhNo::argument_error
 ```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/DouglasTGordon/OhNo.
