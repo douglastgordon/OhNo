@@ -32,6 +32,10 @@ module OhNo
     i_take_one_argument("Here's", "a", "bunch", "of", "arguments")
   end
 
+  def load_error
+    require 'totally/a/real/file'
+  end
+
   private
 
   def i_take_one_argument(arg)

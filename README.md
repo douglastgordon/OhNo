@@ -39,6 +39,7 @@ OhNo::index_error
 OhNo::type_error
 OhNo::no_method_error
 OhNo::argument_error
+OhNo::load_error
 ```
 
 ## Contributing
