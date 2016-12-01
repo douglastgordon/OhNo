@@ -1,7 +1,7 @@
 module Mayhem
 
   def infinite_loop
-    until 1 == 2
+    until false
     end
   end
 
@@ -9,6 +9,9 @@ module Mayhem
     stack_overflow
   end
 
-  
+  def divide_by_zero
+    42/0
+  end
+
 
 end
