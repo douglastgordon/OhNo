@@ -32,8 +32,12 @@ module OhNo
     i_take_one_argument("Here's", "a", "bunch", "of", "arguments")
   end
 
-  def load_error
+  def self.load_error
     require 'totally/a/real/file'
+  end
+
+  def self.syntax_error
+    eval("1+1=2")
   end
 
   private
