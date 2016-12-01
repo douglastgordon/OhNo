@@ -19,5 +19,15 @@ module Mayhem
     small_array.fetch(big_idx)
   end
 
+  def type_error
+    20 / "spaghetti"
+  end
+
+  def name_error
+    youknowme!
+  end
+
+  
+
 
 end
