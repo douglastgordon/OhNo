@@ -15,7 +15,7 @@ Try these and much, much more!
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'baseanything'
+gem 'ohno'
 ```
 
 And then execute:
@@ -24,7 +24,7 @@ And then execute:
 ```
 Or install it yourself as:
 ```ruby
-    $ gem install baseanything
+    $ gem install ohno
 ```
 
 
