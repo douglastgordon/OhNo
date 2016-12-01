@@ -27,7 +27,14 @@ module Mayhem
     youknowme!
   end
 
-  
+  def argument_error
+    i_take_one_argument("Here's", "a", "bunch", "of", "arguments")
+  end
+
+  private
+
+  def i_take_one_argument(arg)
+  end
 
 
 end
