@@ -9,6 +9,7 @@ module Mayhem
     stack_overflow
   end
 
+
   def divide_by_zero
     42/0
   end
@@ -23,7 +24,7 @@ module Mayhem
     20 / "spaghetti"
   end
 
-  def name_error
+  def no_method_error
     youknowme!
   end
 
