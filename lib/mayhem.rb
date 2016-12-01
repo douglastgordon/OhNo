@@ -5,4 +5,10 @@ module Mayhem
     end
   end
 
+  def stack_overflow
+    stack_overflow
+  end
+
+  
+
 end
